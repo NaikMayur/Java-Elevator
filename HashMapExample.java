@@ -18,6 +18,10 @@ class HashMapExample {
         for (String val : set) {
             System.out.println(it.next());
         }
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+
         System.out.println(".............................");
         HashMap<Integer, String> map = new HashMap<>();
         map.put(20, "Mayur");
